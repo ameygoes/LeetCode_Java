@@ -4,7 +4,7 @@
  * PORTFOLIO: https://ameyportfolio.netlify.app/
  * FILE CREATION DATE: 8/23/2022
  */
-package LeetCode;
+package LeetCode.DSA.ArraysAndArraysList;
 
 import java.util.Arrays;
 
