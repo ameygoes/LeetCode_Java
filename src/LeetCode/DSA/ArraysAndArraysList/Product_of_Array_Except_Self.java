@@ -1,7 +1,8 @@
 
-# ======================================================
-# Copyright (c) Amey Bhilegaonkar. All rights reserved.
-# AUTHOR               : AMEY BHILEGAONKAR
-# PORTFOLIO            :https://ameyportfolio.netlify.app
-# LEETCODE PROBLEM LINK: https://leetcode.com/problems/product-of-array-except-self/
-# ======================================================
+// ======================================================
+// Copyright (c) Amey Bhilegaonkar. All rights reserved.
+// AUTHOR               : AMEY BHILEGAONKAR
+// PORTFOLIO            :https://ameyportfolio.netlify.app
+// LEETCODE PROBLEM LINK: https://leetcode.com/problems/product-of-array-except-self/
+
+// ======================================================

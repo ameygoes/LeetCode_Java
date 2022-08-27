@@ -1,7 +1,8 @@
 
-# ======================================================
-# Copyright (c) Amey Bhilegaonkar. All rights reserved.
-# AUTHOR               : AMEY BHILEGAONKAR
-# PORTFOLIO            :https://ameyportfolio.netlify.app
-# LEETCODE PROBLEM LINK: https://leetcode.com/problems/add-to-array-form-of-integer/
-# ======================================================
+// ======================================================
+// Copyright (c) Amey Bhilegaonkar. All rights reserved.
+// AUTHOR               : AMEY BHILEGAONKAR
+// PORTFOLIO            :https://ameyportfolio.netlify.app
+// LEETCODE PROBLEM LINK: https://leetcode.com/problems/add-to-array-form-of-integer/
+
+// ======================================================

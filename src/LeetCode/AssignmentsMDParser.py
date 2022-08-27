@@ -52,7 +52,7 @@ if FileExtension == "java":
     cmtString = "//"
 else:
     cmtString = "#"
-print("no")
+
 with open(MDFILE_FULL_PATH, 'r') as f:
 
     for lineIndex, lineData in enumerate(f):
@@ -67,17 +67,19 @@ with open(MDFILE_FULL_PATH, 'r') as f:
                 continue
             else:
 
-                fileNameLine = str(str(lineData).split("]")[0])[2:]
-                fileName = fileNameLine.replace(" ", "_").replace("[","") + "." + FileExtension
-
+                fileNameLine = str(str(str(lineData).split("]")[0])[2:].split("[")[1:])
+                # print(fileNameLine)
+                fileName = fileNameLine.replace(". [","").replace("']","").replace("[","").replace("'", "").replace(" ", "_") + "." + FileExtension
+                # print(fileName)
                 link = str(str(lineData).split("]")[1])[1:].replace(")", "")
                 # print(link)
                 copyrightContent = defaultString.format(cmt=cmtString,links=link)
 
                 destinationFileName = os.path.join(ParentFolderPath, fileName)
 
+                # print(fileName, link)
                 f = open(destinationFileName, "w")
                 f.write(copyrightContent)
                 f.close()
 
-                print("files Created at: {}".format(destinationFileName))
+                # print("files Created at: {}".format(destinationFileName))
