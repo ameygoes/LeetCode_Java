@@ -47,11 +47,10 @@ defaultString = """
 {cmt} PORTFOLIO            :https://ameyportfolio.netlify.app
 {cmt} LEETCODE PROBLEM LINK: {links}
 {cmt} ======================================================
+
+{javaCode}
 """
-if FileExtension == "java":
-    cmtString = "//"
-else:
-    cmtString = "#"
+
 
 with open(MDFILE_FULL_PATH, 'r') as f:
 
@@ -69,11 +68,19 @@ with open(MDFILE_FULL_PATH, 'r') as f:
 
                 fileNameLine = str(str(str(lineData).split("]")[0])[2:].split("[")[1:])
                 # print(fileNameLine)
-                fileName = fileNameLine.replace(". [","").replace("']","").replace("[","").replace("'", "").replace(" ", "_") + "." + FileExtension
+                fileNameInter = fileNameLine.replace(". [","").replace("']","").replace("[","").replace("'", "").replace(" ", "_").replace("-", "_")
+                fileName = fileNameInter + "." + FileExtension
+                if FileExtension == "java":
+                    cmtString = "//"
+                    java_Code = """package LeetCode.{subfolder}.{mdpath}; \n public class {className} {{}}""".format(subfolder=SUB_FOLDER,mdpath=MDPath, className=fileNameInter)
+                else:
+                    cmtString = "#"
+                    java_Code = ""
+
                 # print(fileName)
                 link = str(str(lineData).split("]")[1])[1:].replace(")", "")
                 # print(link)
-                copyrightContent = defaultString.format(cmt=cmtString,links=link)
+                copyrightContent = defaultString.format(cmt=cmtString,links=link, javaCode=java_Code)
 
                 destinationFileName = os.path.join(ParentFolderPath, fileName)
 
