@@ -15,6 +15,7 @@ public class No_1480_Running_Sum_Of_1d_Array {
 //      Space Complexity: O(1).
 //    THE MOST EASY SOLUTION, STRAIGHT FORWARD, GO OVER ARRAY
 //    CALCULATE ARRAY SUM AND MODIFY THE CURRENT ARRAY ITSELF.
+//    LEETCODE PROBLEM LINK - https://leetcode.com/problems/running-sum-of-1d-array/
 //    ===========================================================
 
     static int[] runningSum(int[] givenArray){
