@@ -8,7 +8,7 @@
 package LeetCode.DSA.ArraysAndArraysList;
 
 
-public class No_1470_Shuffle_The_Array {
+public class E_1470_Shuffle_The_Array {
 
     public int[] shuffle(int[] nums, int n) {
 

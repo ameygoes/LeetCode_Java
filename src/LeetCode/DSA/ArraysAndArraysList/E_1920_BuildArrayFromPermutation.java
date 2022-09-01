@@ -8,7 +8,7 @@ package LeetCode.DSA.ArraysAndArraysList;
 
 import java.util.Arrays;
 
-public class No_1920_BuildArrayFromPermutation {
+public class E_1920_BuildArrayFromPermutation {
 
 //    PROBLEM LINK - https://leetcode.com/problems/build-array-from-permutation/
 

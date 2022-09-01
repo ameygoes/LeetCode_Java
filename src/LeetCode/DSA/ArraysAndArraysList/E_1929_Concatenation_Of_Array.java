@@ -15,7 +15,7 @@ import java.util.Arrays;
 //    TAKES LONGER TIME TO RUN - 1 ms
 ======================================================
  */
-public class No_1929_Concatenation_Of_Array {
+public class E_1929_Concatenation_Of_Array {
 
 //    FUNCTION TO GET CONCATENATION ARRAY
     public static int[] getConcatenation(int[] nums) {

@@ -8,7 +8,7 @@ package LeetCode.DSA.ArraysAndArraysList;
 
 import java.util.Arrays;
 
-public class No_1480_Running_Sum_Of_1d_Array {
+public class E_1480_Running_Sum_Of_1d_Array {
 
 //    ===========================================================
 //      TIME COMPLEXITY: O(N)

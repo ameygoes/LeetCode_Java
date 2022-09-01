@@ -8,7 +8,7 @@
 package LeetCode.DSA.ArraysAndArraysList;
 
 import java.util.HashMap;
-public class No_1512_Number_of_Good_Pairs {
+public class E_1512_Number_of_Good_Pairs {
 
 //    APPROACH 1
       /*

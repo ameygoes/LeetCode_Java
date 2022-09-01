@@ -10,7 +10,7 @@ package LeetCode.DSA.ArraysAndArraysList;
 import java.util.ArrayList;
 import java.util.List;
 
-public class No_1431_Kids_With_The_Greatest_Number_Of_Candies {
+public class E_1431_Kids_With_The_Greatest_Number_Of_Candies {
     static int calculateMax(int[] candies){
 
         int max = Integer.MIN_VALUE;

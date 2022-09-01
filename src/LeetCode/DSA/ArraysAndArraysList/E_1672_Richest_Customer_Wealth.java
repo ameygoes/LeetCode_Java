@@ -14,7 +14,7 @@ package LeetCode.DSA.ArraysAndArraysList;
 //    ===========================================================
 
 
-public class No_1672_Richest_Customer_Wealth {
+public class E_1672_Richest_Customer_Wealth {
     public static int maximumWealth(int[][] accounts) {
         int maximumWealth = Integer.MIN_VALUE;
 

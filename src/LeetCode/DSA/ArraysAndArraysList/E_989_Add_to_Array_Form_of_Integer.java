@@ -13,7 +13,7 @@ package LeetCode.DSA.ArraysAndArraysList;
 import java.util.ArrayList;
 import java.util.List;
 
-public class No_989_Add_to_Array_Form_of_Integer {
+public class E_989_Add_to_Array_Form_of_Integer {
 
 //    THE FIRST APPROACH THAT I TOOK COMPLETELY FAILED BECAUSE,
 //    1 <= num.length <= 10^4, SO IT WAS MISRABLY FAILING FOR
